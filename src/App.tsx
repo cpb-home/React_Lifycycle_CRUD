@@ -11,7 +11,7 @@ function App() {
 
   useEffect(() => {
     updateCards();
-  }, [cardsList]);
+  }, []);
 
   useEffect(() => {
     const timeout = setTimeout(() => {
